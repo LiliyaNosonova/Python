@@ -13,7 +13,7 @@ res = []
 if min >= arr[0] and max <= len(arr): 
     for i in range(len(arr)):
         if min <= arr[i] <= max:
-            vol = res.append(i)
+            res.append(i)
         else:
             i += 1
     print(res)
